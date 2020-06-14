@@ -10,7 +10,7 @@ public class Principal {
 	public static void main(String[] args) {
 		IArquivosController arqCont = new ArquivosController();
 		String pathCreate = "C:\\Exercicio_Arquivos_Java";
-		String nomeCreate = "relatorio2.csv";
+		String nomeCreate = "relatorio.csv";
 		
 		try {
 			arqCont.criaArq(pathCreate, nomeCreate);
